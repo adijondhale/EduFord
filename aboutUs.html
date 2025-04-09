@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduFord-About Us</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <section class="subheader">
+            <nav>
+               <a href="index.html"><img  style="width: 200px;" src="./eduford_img/logo.png" alt=""></a> 
+               <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+    
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="aboutUs.html">About</a></li>
+                    <li><a href="courses.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contactUs.html" >Contact Us</a></li>
+    
+                </ul>
+               </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1 id="subh1">About Us</h1>
+        </section>
+    </header>
+    <main>
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are the World's largest <br>learning platform.</h1>
+                    <p>Eduford University is one of the world’s leading academic and research institutions, offering a unique educational experience that prepares the next generation of global citizens to lead and make a difference in the world. We are a vibrant community of exceptional students, faculty, alumni and professionals dedicated to real-world applications of our research, scholarship, faith and service. Established in 1989, Eduford is the nation’s oldest Catholic and Jesuit university. Drawing upon the 450-year-old legacy of Jesuit education, we provide students with a world-class learning experience focused on educating the whole person through exposure to different faiths, cultures and beliefs.</p>
+                    <a href="" class="hero-btn">Explore Now</a>
+                </div>
+                <div class="about-col">
+                    <img src="./eduford_img/about.jpg" alt="">
+                </div>
+            </div>
+        </section>
+      
+    </main>
+    <footer>
+        <div class="about-text">
+            <h3>About Us</h3>
+            <p id="p">We’re a leading research university with a heart. Founded in the decade that the U.S. Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university. We’re a community of people who bridge our disparate experiences and identities. Meet the people and places that make Eduford home.
+
+            </p>
+        </div>
+        <p id="p1">Made by  <b>Aditya Jondhale!</b> </p>
+    </footer>
+
+
+
+
+
+
+    <script> 
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

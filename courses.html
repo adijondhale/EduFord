@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduFord - Courses</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <section class="subheader">
+            <nav>
+               <a href="index.html"><img  style="width: 200px;" src="./eduford_img/logo.png" alt=""></a> 
+               <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+    
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="aboutUs.html" >About</a></li>
+                    <li><a href="courses.html" >Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contactUs.html" >Contact Us</a></li>
+    
+                </ul>
+               </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1 id="subh1">Courses</h1>
+        </section>
+    </header>
+    <main>
+        <!-- <section class="course">
+            <h1>Courses we offer</h1>
+            <p>Explore the intersection of technology and society. <br> Learn about environmental justice. Take the famous Problem of God course. Our innovative courses inspire and invite you to help solve some of today’s most pressing local, national and global issues.</p>
+            <div class="row">
+                <div class="column-col">
+                    <h3>Undergraduate Programs</h3>
+                    <p>For decades, Eduford College has improved the health of our communities, one graduate at a time. The JoAnn McGrath School of Nursing and Health Professions, as one of the largest nursing schools in Wisconsin, offers a wide array of fully accredited nursing programs, guaranteed clinical placements and a technology-rich Center for Clinical Education.</p>
+                </div>
+                
+                <div class="column-col">
+                    <h3>Post Graduation</h3>
+                    <p>The Eduford, as one of the largest nursing schools in Wisconsin, offers a wide array of fully accredited nursing programs, guaranteed clinical placements and a technology-rich Center for Clinical Education. The Eduford College Community Psychology Master's program will help you to meet your goals of becoming a Licensed Professional Counselor.</p>
+                </div>
+            </div>
+    
+        </section>course -->
+
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>We commit to meet the financial need of every admitted undergraduate student. We don’t consider your ability to pay when we review your application, and we don’t base our decision on whether you can cover the cost. If you’re accepted here, you belong here.</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="./eduford_img/library.png" alt="">
+                    <h3>World Class Library</h3>
+                    <p>For decades, Eduford College has improved the health of our communities, one graduate at a time. The JoAnn McGrath School of Nursing and Health Professions, as one of the largest nursing schools in Wisconsin.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="./eduford_img/basketball.png" alt="">
+                    <h3>World Class Library</h3>
+                    <p>For decades, Eduford College has improved the health of our communities, one graduate at a time. The JoAnn McGrath School of Nursing and Health Professions.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="./eduford_img/cafeteria.png" alt="">
+                    <h3>World Class Library</h3>
+                    <p>For decades, Eduford College has improved the health of our communities, one graduate at a time. The JoAnn McGrath School of Nursing and Health Professions, as one of the largest nursing schools in Wisconsin.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+
+
+    <script> 
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
